@@ -60,6 +60,9 @@ const Navbar = () => {
                   <Link to={"/user/connections"}>My Connections</Link>
                 </li>
                 <li>
+                  <Link to={"/user/requests/received"}>Pending Requests</Link>
+                </li>
+                <li>
                   <a onClick={handleLogout}>Logout</a>
                 </li>
               </ul>

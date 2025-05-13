@@ -19,6 +19,13 @@ const Feed = () => {
   useEffect(() => {
     getFeed();
   }, []);
+
+  if (feed?.length === 0)
+    return (
+      <h1 className="text-3xl text-center font-semibold my-10">
+        No data in feed
+      </h1>
+    );
   return (
     feed && (
       <div className="flex justify-center m-10">

@@ -1,5 +1,3 @@
-/* eslint-disable no-unused-vars */
-
 const UserCard = ({ user }) => {
   const { firstName, lastName, age, gender, about, photoUrl } = user;
   console.log(user);
